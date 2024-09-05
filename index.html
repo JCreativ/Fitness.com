@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>FitLife - Your Path to a Healthier Life</title> 
+  <link rel="stylesheet" href="style.css"> 
+ </head> 
+ <body> 
+  <header> 
+   <nav> 
+    <div class="logo">
+     FitLife
+    </div> 
+    <ul> 
+     <li><a href="#home">Home</a></li> 
+     <li><a href="#services">Services</a></li> 
+     <li><a href="#testimonials">Testimonials</a></li> 
+     <li><a href="#contact">Contact</a></li> 
+    </ul> 
+   </nav> 
+  </header> 
+<section id="home"> 
+   <div class="hero"> 
+    <video autoplay muted loop class="bg-video">
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="content">
+        <h1>Transform Your Life with FitLife</h1> 
+        <p>Join us today to start your journey to a healthier, happier you.</p> 
+        <button class="get-started-btn" onclick="scrollToSection('services')">Get Started</button> 
+    </div>
+   </div> 
+</section>
+  <section id="services"> 
+   <h2>Our Services</h2> 
+   <div class="service-container"> 
+    <div class="service"> 
+     <h3>Personal Training</h3> 
+     <p>One-on-one training sessions tailored to your specific goals.</p> 
+    </div> 
+    <div class="service"> 
+     <h3>Group Classes</h3> 
+     <p>Join our community classes for a fun and motivating workout experience.</p> 
+    </div> 
+    <div class="service"> 
+     <h3>Nutrition Plans</h3> 
+     <p>Customized nutrition plans to complement your fitness journey.</p> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="testimonials"> 
+   <h2>What Our Clients Say</h2> 
+   <div class="testimonial-container"> 
+    <div class="testimonial"> 
+     <p>"FitLife changed my life! The trainers are amazing and the community is so supportive."</p> <span>- Jane Doe</span> 
+    </div> 
+    <div class="testimonial"> 
+     <p>"I love the group classes! They’re challenging, but so much fun."</p> <span>- John Smith</span> 
+    </div> 
+    <div class="testimonial"> 
+     <p>"The nutrition plan helped me achieve my fitness goals faster than I ever imagined."</p> <span>- Sarah Lee</span> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="contact"> 
+   <h2>Contact Us</h2> 
+   <form id="contact-form"> <label for="name">Name:</label> 
+    <input type="text" id="name" required> <label for="email">Email:</label> 
+    <input type="email" id="email" required> <label for="message">Message:</label> <textarea id="message" required></textarea> <button type="submit">Send Message</button> 
+   </form> 
+  </section> 
+  <footer> 
+   <p>© 2024 FitLife. All Rights Reserved.</p> 
+  </footer> 
+  <script src="main.js"></script> 
+ </body>
+</html>
